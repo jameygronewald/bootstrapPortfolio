@@ -4,7 +4,10 @@
 }
 
 #headerJameyGronewald {
-    background-color: rgba(21, 92, 92, 0.7);
+    background-color: rgba(148, 1, 82, 0.7);
     padding: 25px;
 }
 
+h1 {
+    color: #f4f4f4;
+}
