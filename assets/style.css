@@ -21,7 +21,7 @@ body {
     margin-top: 75px;
 }
 
-.card-header {
+#aboutHeader {
     font-size: 20px;
     color:#f4f4f4be;
     background-color:#222;
@@ -32,7 +32,11 @@ body {
     border-radius: 1em 4em;
 }
 
-.page-header {
+#portfolioHeader {
+    margin: 100px 0px 0px 150px;
+}
+
+#contactHeader {
     margin-top: 100px;
 }
 
