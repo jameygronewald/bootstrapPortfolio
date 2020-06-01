@@ -1,5 +1,5 @@
-main {
-    background-image:  
+body {
+    background-image: url("./images/forestBackground.png")  
 }
 
 .navbar {
@@ -30,4 +30,12 @@ main {
 .card-img-top {
     max-width: 300px;
     border-radius: 1em 4em;
+}
+
+.page-header {
+    margin-top: 100px;
+}
+
+form {
+    padding: 25px;
 }
