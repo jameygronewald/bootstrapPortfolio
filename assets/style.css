@@ -1,7 +1,8 @@
+/* SETS BACKGROUND THEME FOR ALL PAGES */
 body {
     background-image: url(./images/forestBackground.png)  
 }
-
+/* NAV BAR STYLING STARTS HERE*/
 .navbar {
     background-color: #222;
     padding: 1rem 3rem;
@@ -16,14 +17,14 @@ body {
     border-right-color: rgba(92, 92, 92, 0.267);
     border-right-width: 1px;
 }
-
+/* STYLING FOR ALL CARDS BETWEEN ALL PAGES */
 .card {
     margin-top: 75px;
     border: none;
     background-image: url();
     box-shadow: 10px 10px 8px 5px #222;
 }
-
+/* STYLING FOR ABOUT PAGE */
 #aboutHeader {
     font-size: 20px;
     color:#f4f4f4be;
@@ -35,7 +36,7 @@ body {
     border-radius: 1.5em 4em;
     padding: 1rem;
 }
-
+/* STYLING FOR PORTFOLIO PAGE */
 #portfolioHeader {
     margin: 100px 0px 0px 150px;
     color: #222;
@@ -52,7 +53,7 @@ body {
 #projectImage {
     border-radius: .15em 2em;
 }
-
+/* STYLING FOR CONTACT PAGE */
 #contactHeader {
     margin-top: 100px;
     color: #222
