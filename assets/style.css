@@ -28,7 +28,7 @@ body {
     background-color:#222;
 }
 
-.card-img-top {
+#aboutImage {
     max-width: 300px;
     border-radius: 1.5em 4em;
     padding: 1rem;
@@ -37,6 +37,10 @@ body {
 #portfolioHeader {
     margin: 100px 0px 0px 150px;
     color: #222;
+}
+
+.card-group {
+    margin: 0px 50px;
 }
 
 #contactHeader {
