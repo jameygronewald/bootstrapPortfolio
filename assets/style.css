@@ -19,6 +19,7 @@ body {
 
 .card {
     margin-top: 75px;
+    border: none;
 }
 
 #aboutHeader {
@@ -27,19 +28,27 @@ body {
     background-color:#222;
 }
 
-.card-img-top {
+#aboutImage {
     max-width: 300px;
-    border-radius: 1em 4em;
+    border-radius: 1.5em 4em;
+    padding: 1rem;
 }
 
 #portfolioHeader {
     margin: 100px 0px 0px 150px;
+    color: #222;
+}
+
+.card-group {
+    margin: 0px 50px;
 }
 
 #contactHeader {
     margin-top: 100px;
+    color: #222
 }
 
 form {
     padding: 25px;
+    color: #222;
 }
