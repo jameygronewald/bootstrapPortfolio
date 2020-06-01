@@ -1,5 +1,10 @@
+body {
+    background-image: url("./images/forestBackground.png")  
+}
+
 .navbar {
-    background-color: rgba(160, 0, 0, 0.815);
+    background-color: #222;
+    padding: 1rem 3rem;
 }
 
 #navbarBrand {
@@ -10,4 +15,27 @@
     border-right: solid;
     border-right-color: rgba(92, 92, 92, 0.267);
     border-right-width: 1px;
+}
+
+.card {
+    margin-top: 75px;
+}
+
+.card-header {
+    font-size: 20px;
+    color:#f4f4f4be;
+    background-color:#222;
+}
+
+.card-img-top {
+    max-width: 300px;
+    border-radius: 1em 4em;
+}
+
+.page-header {
+    margin-top: 100px;
+}
+
+form {
+    padding: 25px;
 }
