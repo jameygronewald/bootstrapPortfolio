@@ -11,6 +11,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/style.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -40,35 +43,37 @@
       <h1 id = "portfolioHeader">
         Portfolio
       </h1>
-      <div class="card-group">
-        <div class="card">
-          <img class="card-img-top" src="./assets/images/rockPaperScissorsImage.png" alt="Paper, Scissors, Rock">
+      <div class="row projectRow">
+        <div class="card col-sm-3 projectCard">
+          <img id = "projectImage" class="card-img-top" src="./assets/images/rockPaperScissorsImage.png" alt="Paper, Scissors, Rock">
           <div class="card-body">
             <h5 class="card-title">Rock Paper Scissors</h5>
             <p class="card-text">Web app that pits user against "Compy" in a game of Rock Paper Scissors. Uses JavaScript event listeners and DOM manipulation.</p>
           </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+          <div class="card-footer row">
+            <strong class="text-dark col-12">Run the <span><a href = "https://jameygronewald.github.io/rockPaperScissorsGame/" target = "_blank">Web App</a></span></strong>
+            <strong class="text-dark col-12">Check Out the <span><a href = "https://github.com/jameygronewald/rockPaperScissorsGame" target = "_blank">Repository</a></span></strong>
           </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="./assets/images/passwordGeneratorImage.png" alt="Password">
+        <div class="card col-sm-3 projectCard">
+          <img id = "projectImage" class="card-img-top" src="./assets/images/passwordGeneratorImage.png" alt="Password">
           <div class="card-body">
             <h5 class="card-title">Password Generator</h5>
             <p class="card-text">Web app that uses JavaScript functions to generate random passwords of any length!</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <a href = "#"><small class="text-muted">Project Coming Soon</small></a>
           </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="./assets/images/rpgImage.png" alt="Warrior">
+        <div class="card col-sm-3 projectCard">
+          <img id = "projectImage" class="card-img-top" src="./assets/images/rpgImage.png" alt="Warrior">
           <div class="card-body">
             <h5 class="card-title">RPG Game</h5>
             <p class="card-text">8-bit role-playing game in the spirit of the classics. Fight monsters, discover new gear, level up, and save the world!</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <a href = "#"><small class="text-muted">Project Coming Soon</small></a>
+          </div>
           </div>
         </div>
       </div>
