@@ -20,6 +20,7 @@ body {
 .card {
     margin-top: 75px;
     border: none;
+    background-image: url(./images/beachBackground.png);
 }
 
 #aboutHeader {
@@ -41,6 +42,10 @@ body {
 
 .card-group {
     margin: 0px 50px;
+}
+
+#projectImage {
+    border-radius: 0em 4em;
 }
 
 #contactHeader {
