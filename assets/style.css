@@ -1,5 +1,5 @@
 body {
-    background-image: url("./images/forestBackground.png")  
+    background-image: url(./images/forestBackground.png)  
 }
 
 .navbar {
@@ -20,7 +20,8 @@ body {
 .card {
     margin-top: 75px;
     border: none;
-    background-image: url(./images/beachBackground.png);
+    background-image: url();
+    box-shadow: 10px 10px 8px 5px #222;
 }
 
 #aboutHeader {
@@ -41,16 +42,20 @@ body {
 }
 
 .card-group {
-    margin: 0px 50px;
+    margin: 0px 50px 50px;
 }
 
 #projectImage {
-    border-radius: 0em 4em;
+    border-radius: .15em 2em;
 }
 
 #contactHeader {
     margin-top: 100px;
     color: #222
+}
+
+#contactCard {
+    margin-top: 100px;
 }
 
 form {
