@@ -41,8 +41,12 @@ body {
     color: #222;
 }
 
-.card-group {
+.projectRow {
     margin: 0px 50px 50px;
+}
+
+.projectCard {
+    margin: 1em;
 }
 
 #projectImage {
