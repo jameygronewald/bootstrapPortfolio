@@ -4,21 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Me</title>
+    <!-- BOOTSTRAP CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <!-- MY CUSTOM STYLE SHEET -->
     <link rel="stylesheet" href="./assets/style.css" type="text/css" />
+    <!-- BOOTSTRAP JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-      <a id="navbarBrand" class="navbar-brand" href="#">Jamey Gronewald</a>
+    <!-- NAV BAR CONSISTENT ACROSS ALL 3 PAGES -->
+    <nav class="topNavBar navbar navbar-expand-md navbar-dark fixed-top">
+      <a id="navbarBrand" class="navbar-brand col-7" href="index.html">Jamey Gronewald</a>
+      <!-- HAMBURGER MENU THAT TOGGLES ON FOR SMALLER DEVICES -->
       <button
         class="navbar-toggler"
         type="button"
@@ -31,6 +36,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <!-- NAV ITEMS AND ANCHOR -->
         <div class="navbar-nav">
           <a class="nav-item nav-link divider" href="index.html">Home</a>
           <a class="nav-item nav-link divider" href="portfolio.html">Portfolio</a>
@@ -38,12 +44,13 @@
         </div>
       </div>
     </nav>
-
-    <main class = "container">
+    <!-- MAIN CONTENT -->
+    <main class = "container contactContent">
       <div class = "row">
+        <!-- PAGE HEADER -->
         <h1 id = "contactHeader" class = "page-header col-md-4">Contact Me</h1>
-
-        <form id = "contactCard" class = "card col-md-8">
+        <form id = "contactCard" class = "card col-lg-8">
+          <!-- INPUTS FOR FIRST AND LAST NAME -->
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="firstName">First Name</label>
@@ -54,16 +61,18 @@
               <input type="text" class="form-control" placeholder="Ocean">
             </div>
           </div>
+          <!-- INPUTS FOR EMAIL AND PHONE NUMBER -->
           <div class = "form-row">  
             <div class="form-group col-md-6">
               <label for="emailAddress">Email</label>
-              <input type="text" class="form-control" placeholder="something@example.com">
+              <input type="text" class="form-control" placeholder="email@example.com">
             </div>
             <div class="form-group col-md-6">
               <label for="phoneNumber">Phone Number</label>
               <input type="text" class="form-control" placeholder="404-867-5309">
             </div>
           </div>
+          <!-- INPUTS FOR GITHUB PROFILE AND COMPANY -->
           <div class = "form-row">  
             <div class="form-group col-md-6">
               <label for="github">Github Profile</label>
@@ -74,13 +83,21 @@
               <input type="text" class="form-control" placeholder="Silph Co.">
             </div>
           </div>
+          <!-- TEXT AREA FOR CUSTOM MESSAGE -->
           <div class="form-group">
             <label for="message">Message</label>
             <textarea class="form-control" rows="4" placeholder="Hello!"></textarea>
           </div>
+          <!-- SUBMIT BUTTON -->
           <button type="submit" class="btn btn-dark" id = "formButton">Say Hi!</button>
         </form>
       </div>  
     </main>
+    <!-- STICKY FOOTER W COPYRIGHT -->
+    <footer class="container">
+      <nav class="navbar stickyFooter fixed-bottom navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-brand">© 2020 Jamey Gronewald</div>
+      </nav>
+    </footer>
   </body>
 </html>

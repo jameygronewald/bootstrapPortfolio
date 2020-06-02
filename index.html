@@ -4,21 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jamey Gronewald</title>
+    <!-- BOOTSTRAP CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <!-- MY CUSTOM STYLE SHEET -->
     <link rel="stylesheet" href="./assets/style.css" type="text/css" />
+    <!-- BOOTSTRAP JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+    <!-- NAV BAR CONSISTENT ACROSS ALL 3 PAGES -->
+    <nav class="topNavBar navbar navbar-expand-sm navbar-dark fixed-top">
       <a id="navbarBrand" class="navbar-brand col-7" href="#">Jamey Gronewald</a>
+      <!-- HAMBURGER MENU THAT TOGGLES ON FOR SMALLER DEVICES -->
       <button
         class="navbar-toggler"
         type="button"
@@ -31,6 +36,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <!-- NAV ITEMS AND ANCHOR -->
         <div class="navbar-nav">
           <a class="nav-item nav-link divider active" href="#">Home <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link divider" href="portfolio.html">Portfolio</a>
@@ -38,26 +44,49 @@
         </div>
       </div>
     </nav>
-    <br />
-
+    
+    <br/>
+    <!-- MAIN CONTENT -->
     <main class="container">
-      <div class="card">
-        <div id = "aboutHeader" class="card-header">
-          About
-        </div>
-        <div class="card-body row">
-          <img id = "aboutImage" class = "card-img-top col-sm-4" src="./assets/images/portfolioAbout.png" alt="Jamey" />
-          <content class = "row col-sm-8">
-            <div class="card-text">
-              Full-stack web developer interested in storytelling and finding new avenues for artists to create and new platforms from which to be heard. From Atlanta, GA and based out of Seattle, WA. 
-            </div>
-            <div class="card-text">
-              <a class = "text-primary" href = "https://www.linkedin.com/in/james-gronewald-08411a1a9/" target = "_blank">LinkedIn</a>
-
-            </div>
-          </content>
+      <div class = "row">
+        <div class="card col-lg-8">
+          <!-- CONTENT HEADER -->
+          <header id = "aboutHeader" class="card-header">
+            About
+          </header>
+          <div class="card-body row">
+            <!-- IMAGE OF ME -->
+            <figure>
+              <img id = "aboutImage" class = "card-img-top col-sm-4" src="./assets/images/portfolioAbout.png" alt="Jamey" />
+            </figure>
+            <!-- BIO -->
+            <content class = "row col-md-6">
+              <article class="card-text">
+                Full-stack web developer interested in storytelling and creating new platforms for artists to create and be heard. From Atlanta, GA and based out of Seattle, WA. 
+              </article>
+              <!-- CONTACT INFO -->
+              <section class="card-text col-sm-12 h3">
+                Reach out: 
+              </section>
+              <div class="card-text col-sm-12">
+                jrgronewald@gmail.com
+              </div>
+              <div class="card-text col-sm-12">
+                <a class = "text-primary" href = "https://www.linkedin.com/in/jamey-gronewald-08411a1a9/" target = "_blank">LinkedIn</a>
+                <br/>
+                <br/>
+                <a class = "text-primary" href = "https://github.com/jameygronewald" target = "_blank">Github</a>
+              </div>
+            </content>
+          </div>
         </div>
       </div>
     </main>
+    <!-- STICKY FOOTER W COPYRIGHT -->
+    <footer class="container">
+      <nav class="navbar fixed-bottom stickyFooter navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-brand">© 2020 Jamey Gronewald</div>
+      </nav>
+    </footer>
   </body>
 </html>
