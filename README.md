@@ -3,6 +3,9 @@
 ---
 
 ## Description
+This is my responsive portfolio built using Bootstrap. The app reconfigures to a new layout depending on the viewport of the device being used. 
+
+The homepage provides my professional statement and contact information. The portfolio page provides descriptions and links for my projects and planned projects. The contact page contains a form with basic info and a message field for contacting me.
 
 ---
 
@@ -10,20 +13,28 @@
 
 * [Installation](#Installation)
 * [Usage](#Usage)
+* [Images](#Images)
 * [Credits](#Credits)
 * [License](#License)
 
 ---
 
 ## Installation
+1. Clone the Github Repository [here](https://github.com/jameygronewald/bootstrapPortfolio).
+2. Open index.html in browser.
 
 ---
 
 ## Usage
+* Visit the deployed app: [Jamey Gronewald Portfolio](https://jameygronewald.github.io/bootstrapPortfolio/index.html)
+
+* Visit Github to track changes that were made or to clone the repo: [Github Repo](https://github.com/jameygronewald/bootstrapPortfolio)
+### Images
 
 ---
 
 ## Credits
+I, Jamey Gronewald, was the sole contributor on this project.
 
 ---
 
