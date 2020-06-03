@@ -18,18 +18,22 @@ body {
     border-right-width: 2px;
 }
 
-/* STYLING FOR MAIN CONTENT TO KEEP IT SEPARATE FROM NAVBAR AND STICKY FOOTER */
+/* STYLING FOR MAIN CONTENT TO KEEP IT SEPARATE FROM STICKY FOOTER */
 
 main {
     margin-bottom: 100px;
 }
 
-/* STYLING FOR ALL CARDS BETWEEN ALL PAGES */
+/* STYLING FOR ALL CARDS ACROSS ALL PAGES */
 .card {
     border: none;
     background-color: rgba(211, 211, 211, 0.555);
     box-shadow: 10px 10px 8px 5px #222;
     padding: 0px;
+}
+/* STYLING FOR ALL HYPERLINKED TEXT ACROSS ALL PAGES */
+.hyperlink {
+    color: rgb(92, 14, 14);
 }
 /* STYLING FOR ABOUT PAGE STARTS HERE*/
 .aboutCard {
@@ -48,9 +52,7 @@ main {
     padding: 1rem;
 }
 
-.hyperlink {
-    color: rgb(92, 14, 14);
-}
+
 /* STYLING FOR PORTFOLIO PAGE STARTS HERE */
 #portfolioHeader {
     margin: 100px 0px 0px 150px;
