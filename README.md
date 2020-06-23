@@ -5,7 +5,7 @@
 ## Description
 This is my responsive portfolio built using Bootstrap. The app reconfigures to a new layout depending on the viewport of the device being used. 
 
-The homepage provides my professional statement and contact information. The portfolio page provides descriptions and links for my projects and planned projects. The contact page contains a form with basic info, a message field, and a submit button for contacting me.
+The homepage provides my professional statement. The portfolio page provides descriptions and links for my projects. The contact page provides information for getting in touch with me and a link to my resume.
 
 ---
 
