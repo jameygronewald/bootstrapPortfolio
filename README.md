@@ -34,23 +34,9 @@ The homepage provides my professional statement. The portfolio page provides des
 
 ## Images
 
-#### Large Viewport
-
-![About Page](./assets/demoImages/aboutPageLg.png)
-![Portfolio Page](./assets/demoImages/portfolioPageLg.png)
-![Contact Page](./assets/demoImages/contactPageLg.png)
-
-#### Medium Viewport
-
-![About Page](./assets/demoImages/aboutPageMd.png)
-![Portfolio Page](./assets/demoImages/portfolioPageMd.png)
-![Contact Page](./assets/demoImages/contactPageMd.png)
-
-#### Mobile Viewport
-
-![About Page](./assets/demoImages/aboutPageMobile.png)
-![Portfolio Page](./assets/demoImages/portfolioPageMobile.png)
-![Contact Page](./assets/demoImages/contactPageMobile.png)
+![About Page](./assets/demoImages/about.png)
+![Portfolio Page](./assets/demoImages/portfolio.png)
+![Contact Page](./assets/demoImages/contact.png)
 
 ---
 
