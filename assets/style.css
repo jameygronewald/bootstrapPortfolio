@@ -1,3 +1,6 @@
+* {
+    font-family: 'Strait', sans-serif;
+}
 /* SETS BACKGROUND THEME FOR ALL PAGES */
 body {
     background-image: url(./appImages/forestBackground.png)  
@@ -74,18 +77,4 @@ main {
 
 #contactHeader {
     color: #222
-}
-
-#contactCard {
-    padding: 25px;
-    margin-top: 35px;
-}
-
-form {
-    color: #222;
-}
-
-#formBtn {
-    background-color: rgb(92, 14, 14);
-    color: #f4f4f4
 }

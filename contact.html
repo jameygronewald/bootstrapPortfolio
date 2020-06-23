@@ -13,6 +13,8 @@
     />
     <!-- MY CUSTOM STYLE SHEET -->
     <link rel="stylesheet" href="./assets/style.css" type="text/css" />
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Strait&display=swap" rel="stylesheet">
     <!-- BOOTSTRAP JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -49,49 +51,16 @@
       <div class = "row">
         <!-- PAGE HEADER -->
         <h1 id = "contactHeader" class = "page-header col-md-4">Contact Me</h1>
-        <form id = "contactCard" class = "card col-lg-8">
-          <!-- INPUTS FOR FIRST AND LAST NAME -->
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label>First Name</label>
-              <input type="text" class="form-control" placeholder="Frank">
-            </div>
-            <div class="form-group col-md-6">
-              <label>Last Name</label>
-              <input type="text" class="form-control" placeholder="Ocean">
+        <div class="contactCard card col-md-6 mx-auto">
+            <div class="card-body">
+              <h2 class="card-title"><a class = "hyperlink" href = "mailto:jrgronewald@gmail.com"><strong>Email: jrgronewald@gmail.com</strong></a></h5>
+              <h3 class="card-subtitle mb-2">Cell: 404-242-0029</h6>
+              <h4><a class = "row hyperlink mx-auto" href = "https://github.com/jameygronewald" target = "_blank"><strong>Github</strong></a></h4>
+              <h4><a class = "row hyperlink mx-auto" href = "https://www.linkedin.com/in/jamey-gronewald-08411a1a9/" target = "_blank"><strong>LinkedIn</strong></a></h4>
             </div>
           </div>
-          <!-- INPUTS FOR EMAIL AND PHONE NUMBER -->
-          <div class = "form-row">  
-            <div class="form-group col-md-6">
-              <label>Email</label>
-              <input type="text" class="form-control" placeholder="email@example.com">
-            </div>
-            <div class="form-group col-md-6">
-              <label>Phone Number</label>
-              <input type="text" class="form-control" placeholder="404-867-5309">
-            </div>
-          </div>
-          <!-- INPUTS FOR GITHUB PROFILE AND COMPANY -->
-          <div class = "form-row">  
-            <div class="form-group col-md-6">
-              <label>Github Profile</label>
-              <input type="text" class="form-control" placeholder="Username">
-            </div>
-            <div class="form-group col-md-6">
-              <label>Company</label>
-              <input type="text" class="form-control" placeholder="Silph Co.">
-            </div>
-          </div>
-          <!-- TEXT AREA FOR CUSTOM MESSAGE -->
-          <div class="form-group">
-            <label>Message</label>
-            <textarea class="form-control" rows="4" placeholder="Hello!"></textarea>
-          </div>
-          <!-- SUBMIT BUTTON -->
-          <button type="submit" class="btn" id = "formBtn">Say Hi!</button>
-        </form>
-      </div>  
+      </div>
+
     </main>
     <!-- STICKY FOOTER W COPYRIGHT -->
     <footer class="container">
